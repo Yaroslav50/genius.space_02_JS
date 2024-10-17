@@ -72,3 +72,94 @@ console.log(Math.pow(2, 4)); //16
 console.log(Math.random() * (10 - 1) + 1); // дробове
 console.log(Math.floor(Math.random() * (10 - 1) + 1)); // ціле
 */
+
+// STRING
+
+/*
+let str = 'Hello!!!';
+let phrase = `Here we insert ${str}`;
+console.log(phrase);
+
+const message = 'JavaScript' + ' is ' +'awesome';
+console.log(message);
+*/
+
+// КОНКАТЕНАЦІЯ
+
+/*
+let result;
+
+result = 5 +'5';
+console.log(result);
+console.log(typeof result);
+
+result = 5 +'5' + 5;
+console.log(result);
+console.log(typeof result);
+
+result = 5 + 5 +'5';
+console.log(result);
+console.log(typeof result);
+*/
+
+// METHODS OF THE STRINGS
+
+// length
+// toLowerCase()
+// toUpperCase
+// indexOf()
+// includes()
+
+/*
+const js = 'JavaScript';
+const message = 'Welcome to Bahamas';
+console.log(message.length);
+console.log("another string example".length);
+console.log(message.toLowerCase());
+console.log(message.toUpperCase());
+console.log(message.indexOf('t'));
+console.log(message.indexOf('hello'));
+console.log(message.includes("welcome"));
+console.log(message.includes("Welcome"));
+*/
+
+// BigInt
+
+/*
+const num = 984975846584549584958n;
+console.log(typeof num);
+*/
+
+// OBJECTS
+
+/*
+let user = {
+  name: "Ivan",
+  age: 30,
+  work: "false",
+};
+
+user.car = true;
+user["favourite color"] = "violet";
+console.log(user);
+console.log(user.work);
+delete user.age;
+console.log(user.age);
+console.log(user);
+console.log(user["favourite color"]);
+for (let key in user) {
+  console.log(user[key]);
+}
+*/
+
+/*
+let codes = {
+  49: "Germany",
+  41: "Swiss",
+  44: "GB",
+  1: "Usa",
+};
+
+for (let code in codes) {
+  console.log(code);
+} */
