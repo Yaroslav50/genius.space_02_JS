@@ -55,7 +55,6 @@ console.log(summ);
 let biggest = Math.max(20, 100, 50, 40);
 console.log(biggest);
 */
-
 //***6**
 //Поверніть випадкове число в діапазоні від 2 до 4
 /*
@@ -67,6 +66,7 @@ console.log(Math.round(Math.random() * (10 - 1) + 1));
 /*
 const message = "Welcome to Bahamas!";
 console.log(message.length);
+console.log("Welcome to Bahamas!".length);
 */
 //***8**
 //вивести в консоль message  великими літерами
@@ -74,12 +74,15 @@ console.log(message.length);
 console.log(message.toUpperCase());
 */
 //***9**
-// створити пустий об*єкт
-// додати туди ім*я, вік і місто
-// вивести результат в консоль
-// видалити місто
-// додати буль з ключем: like flowers
-// вивести результат в консоль
+/*
+створити пустий об*єкт
+додати туди ім*я, вік і місто
+вивести результат в консоль
+видалити місто
+додати буль з ключем: like flowers
+вивести результат в консоль
+*/
+
 /*
 let myUser = {
   userName: "Yaroslav",
@@ -93,11 +96,14 @@ console.log(myUser);
 */
 //***10**
 // За допомогою циклу  “for…in” вивести в консоль ключі і значення об*єкта
-/*for (let key in myUser) {
-  console.log(myUser);
+/*
+for (let key in myUser) {
+  console.log(key);
   console.log(myUser[key]);
 }
-for (let key in myUser) {
+  */
+
+/*for (let key in myUser) {
   if (myUser.hasOwnProperty(key)) {
     console.log(`${key} : ${myUser[key]}`);
   }
